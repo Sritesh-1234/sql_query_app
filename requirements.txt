@@ -1,5 +1,5 @@
-pip install meta_ai_api  
-pip install PyMySQL                                                                  
-pip install SQLAlchemy 
-pip install pandas  
-pip install streamlit  
+meta_ai_api  
+PyMySQL                                                                  
+SQLAlchemy 
+pandas  
+streamlit  
