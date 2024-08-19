@@ -117,9 +117,12 @@ from meta_ai_api import MetaAI
 import pymysql
 import urllib.parse
 from urllib.parse import quote_plus
+import os
+
 
 # Define the connection URL
-db_url = "mysql+pymysql://root:"+quote_plus("Sritesh@1234")+"@localhost:3306/student_db"
+db_url = os.environ["PATH"]
+
 
 print(db_url)
 
